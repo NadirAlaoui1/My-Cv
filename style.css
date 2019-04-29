@@ -1,11 +1,11 @@
 body{
     margin:0;
     padding:0;
-    background-image:url("bg.jpg")
+    background-image:url("bg.png")
 }
 
 h1{
-    text-aling:center;
+    text-align:center;
     color:white;
 }
 
@@ -18,8 +18,11 @@ p{
 }
 
 img{
+    margin-left:5%;
     width:90%;
     height:80%
+    border:10px solid black;
+    border-radius:5px;
 }
 
 #overlay{
@@ -27,12 +30,13 @@ img{
     width:960px;
     height:500px;
     background-color:rgbs(0,0,0,0,5);
+    border-radius:5px;
 }
 
 .block1{
     width:500px;
-    height:500px
-    float:left;
+    height:500px;
+    float: left;
 }
 
 .block2{
